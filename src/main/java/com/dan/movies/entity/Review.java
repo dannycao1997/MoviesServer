@@ -1,4 +1,4 @@
-package com.dan.movies;
+package com.dan.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

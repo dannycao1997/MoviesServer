@@ -1,6 +1,7 @@
-package com.dan.movies;
+package com.dan.movies.service;
 
-import org.bson.types.ObjectId;
+import com.dan.movies.entity.Movie;
+import com.dan.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

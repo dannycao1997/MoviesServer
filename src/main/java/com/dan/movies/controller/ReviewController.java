@@ -1,6 +1,8 @@
-package com.dan.movies;
+package com.dan.movies.controller;
 
 
+import com.dan.movies.entity.Review;
+import com.dan.movies.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

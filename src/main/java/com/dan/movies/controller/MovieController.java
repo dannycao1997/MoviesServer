@@ -1,6 +1,7 @@
-package com.dan.movies;
+package com.dan.movies.controller;
 
-import org.bson.types.ObjectId;
+import com.dan.movies.entity.Movie;
+import com.dan.movies.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

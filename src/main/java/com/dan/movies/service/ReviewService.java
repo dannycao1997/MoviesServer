@@ -1,5 +1,8 @@
-package com.dan.movies;
+package com.dan.movies.service;
 
+import com.dan.movies.entity.Movie;
+import com.dan.movies.repository.ReviewRepository;
+import com.dan.movies.entity.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
