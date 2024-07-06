@@ -35,3 +35,4 @@ build/
 ### ENV FILES ###
 *.env.env
 .env
+.env
